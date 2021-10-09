@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_200sdp"
+            android:src="@drawable/logo"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_90sdp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:textSize="@dimen/_25sdp"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_gravity="center_horizontal"
+            android:padding="@dimen/_5sdp"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/_15sdp"/>
+
+        <TextView
+            android:id="@+id/tvgs"
+            android:layout_width="@dimen/_260sdp"
+            android:layout_height="wrap_content"
+            android:text="Getting Started"
+            android:background="@drawable/login_tv"
+            android:textSize="@dimen/_15sdp"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:padding="@dimen/_5sdp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/_75sdp"/>
+
+    </LinearLayout>
+</RelativeLayout>
